@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  flask1:
+    build: ./src
+    ports:
+      - 5001:5001
+    command: [ "gunicorn", "--bind", "0.0.0.0:5001", "wsgi:app" ]
+
+  flask2:
+    build: ./src
+    ports:
+      - 5002:5002
+    command: [ "gunicorn", "--bind", "0.0.0.0:5002", "wsgi:app" ]
+
+  flask3:
+    build: ./src
+    ports:
+      - 5003:5003
+    command: [ "gunicorn", "--bind", "0.0.0.0:5003", "wsgi:app" ]

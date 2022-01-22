@@ -1,0 +1,45 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5001
+DEBUG:urllib3.connectionpool:http://localhost:5001 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5001
+DEBUG:urllib3.connectionpool:http://localhost:5001 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5001
+DEBUG:urllib3.connectionpool:http://localhost:5001 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5001
+DEBUG:urllib3.connectionpool:http://localhost:5001 "GET /health HTTP/1.1" 200 17
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5001
+DEBUG:urllib3.connectionpool:http://localhost:5001 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:urllib3.connectionpool:http://localhost:5002 "GET /health HTTP/1.1" 200 17
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:urllib3.connectionpool:http://localhost:5002 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:urllib3.connectionpool:http://localhost:5002 "GET /health HTTP/1.1" 200 17
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:urllib3.connectionpool:http://localhost:5002 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5002
+DEBUG:urllib3.connectionpool:http://localhost:5002 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5003
+DEBUG:urllib3.connectionpool:http://localhost:5003 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5003
+DEBUG:urllib3.connectionpool:http://localhost:5003 "GET /health HTTP/1.1" 200 17
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5003
+DEBUG:urllib3.connectionpool:http://localhost:5003 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5003
+DEBUG:urllib3.connectionpool:http://localhost:5003 "GET /health HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:5003
+DEBUG:urllib3.connectionpool:http://localhost:5003 "GET /health HTTP/1.1" 200 17
+INFO:root:{'service1': {'failure': 1,
+              'max_response_time': 8162,
+              'mean_response_time': 6131.6,
+              'min_response_time': 5071,
+              'success': 4},
+ 'service2': {'failure': 2,
+              'max_response_time': 6084,
+              'mean_response_time': 6020.0,
+              'min_response_time': 5896,
+              'success': 3},
+ 'service3': {'failure': 2,
+              'max_response_time': 8004,
+              'mean_response_time': 6395.2,
+              'min_response_time': 5274,
+              'success': 3}}
